@@ -35,4 +35,4 @@ if [ $? -ne 0 ];then
   exit 1
 fi
 
-ghq get "${REPO}" "${@:2}"
+ghq get -p "${REPO}" "${@:2}"
